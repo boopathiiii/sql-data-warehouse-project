@@ -29,3 +29,10 @@ SELECT
     prd_start_dt,
     DATEADD(DAY, -1, LEAD(prd_start_dt) OVER (PARTITION BY prd_key ORDER BY prd_start_dt)) AS prd_end_dt
 FROM Bronze.crm_prd_info
+
+/*
+-- If need we can check whether we have additional values in this table., 
+Eg:
+WHERE REPLACE(SUBSTRING(prd_key, 1, 5), '-', '_') NOT IN 
+(SELECT DISTINCT id FROM Bronze.erp_px_cat_g1v2)
+*/
