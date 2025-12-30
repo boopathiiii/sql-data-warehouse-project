@@ -27,6 +27,7 @@ SELECT
 FROM Bronze.crm_cust_info
 WHERE cst_firstname != TRIM(cst_firstname)
 
+
 /*
 Output:
 cst_firstname
@@ -106,3 +107,29 @@ SELECT
 	bdate
 FROM Bronze.erp_cust_az12
 WHERE bdate < '1924-01-01' OR bdate > GETDATE()
+
+
+-- Checking is the values in both columns are the same
+-- From Business: CRM is the master table for gender info
+SELECT DISTINCT
+	ci.cst_gndr,
+	ca.gen
+FROM Silver.crm_cust_info ci
+LEFT JOIN Silver.erp_cust_az12 ca
+ON ci.cst_key = ca.cid
+LEFT JOIN Silver.erp_loc_a101 la
+ON ci.cst_key = la.cid
+ORDER BY 1,2;
+
+-- Final
+-- Foreign key Integrity (Dimensions)
+
+SELECT
+	*
+FROM Gold.fact_sales f
+LEFT JOIN Gold.dim_customers c
+ON c.customer_key = f.customer_key
+LEFT JOIN Gold.dim_products p
+ON p.product_key = f.product_key
+WHERE c.customer_key IS NULL OR p.product_key IS NULL
+
