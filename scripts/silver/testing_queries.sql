@@ -17,3 +17,16 @@ SELECT
 	*
 FROM Silver.crm_prd_info
 WHERE prd_end_date < prd_start_dt
+
+-- Check for invalid date columns
+
+SELECT sls_order_dt
+FROM Bronze.crm_sales_details
+WHERE sls_order_dt <= 0 
+OR LEN(sls_order_dt) != 8
+OR sls_order_dt > 20500101
+OR sls_order_dt < 19000101;
+
+-- Order date must be always smaller than the shipping date and the due date
+SELECT * FROM Bronze.crm_sales_details
+WHERE sls_order_dt > sls_ship_dt OR sls_order_dt > sls_due_dt
