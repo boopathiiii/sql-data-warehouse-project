@@ -1,5 +1,20 @@
 /*
-This SP performs ETL to populate the tables in Silver schema from Bronze schema. Performs Data Cleansing, Data Aggregration, Validation, Enrichment all kinda stuffs.
+This SP performs ETL to populate the tables in Silver schema from Bronze schema. 
+
+Performs:
+	Data Cleansing
+		Removes Duplicates
+		Data Filtering
+		Handling missing Data
+		Handling invalid values
+		Handling unwanted spaces
+		Type casting
+		Outlier Detection
+	Data Aggregation
+	Data Enrichment
+	Data Integration
+	Data Normalization & Standardization
+	Implements Business logic in the data
 
 Sample output:
 =========================================
