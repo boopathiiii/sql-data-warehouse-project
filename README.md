@@ -91,7 +91,9 @@ data-warehouse-project/
 
 ## 😊 Acknowledgements & References
 
-This project was inspired by Baraa's YouTube channel [![YouTube](https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](http://bit.ly/3GiCVUE). I highly recommend it for anyone interested in learning about data. The associated GitHub repository has been an invaluable resource for this project.
+This project was inspired by Baraa's YouTube channel.
+[![YouTube](https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](http://bit.ly/3GiCVUE)
+I highly recommend it for anyone interested in learning about data. The associated GitHub repository has been an invaluable resource for this project.
 
 ---
 
@@ -105,7 +107,7 @@ Data Engineer | Knowledge Sharer | Tech Enthusiast
 Let's stay in touch! Feel free to connect with me on the following platforms:
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/boopathiraja-b-732393329)
-[![Medium](https://img.shields.io/badge/Medium-black?style=for-the-badge&logo=medium&logoColor=black)](https://medium.com/@boopathiraja16702)
+[![Medium]([https://img.shields.io/badge/Medium-black?style=for-the-badge&logo=medium&logoColor=black)](https://medium.com/@boopathiraja16702](https://img.shields.io/badge/Medium-black?style=for-the-badge&logo=medium&logoColor=white))
 
 ---
 
