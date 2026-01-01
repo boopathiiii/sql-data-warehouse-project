@@ -7,6 +7,7 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 ## 🏗️ Data Architecture
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
+<img width="1019" height="726" alt="SQL_DW_Final4" src="https://github.com/user-attachments/assets/a4d7e350-4985-494b-9b20-16f4102cdd60" />
 
 
 1. **Bronze Layer**: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
@@ -95,7 +96,7 @@ This project was inspired by Baraa's YouTube channel.
 
 [![YouTube](https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](http://bit.ly/3GiCVUE)
 
-I highly recommend it for anyone interested in learning about data. The associated GitHub repository has been an invaluable resource for this project.
+I highly recommend it for anyone interested in learning about data. His GitHub repository has been an invaluable resource for this project.
 
 ---
 
