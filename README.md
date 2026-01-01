@@ -92,14 +92,17 @@ data-warehouse-project/
 ## 😊 Acknowledgements & References
 
 This project was inspired by Baraa's YouTube channel.
+
 [![YouTube](https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](http://bit.ly/3GiCVUE)
+
 I highly recommend it for anyone interested in learning about data. The associated GitHub repository has been an invaluable resource for this project.
 
 ---
 
 ## 🌟 About Me
 
-Hi there! I'm **Boopathiraja B**. 
+Hi there! I'm **Boopathiraja B**.
+
 Data Engineer | Knowledge Sharer | Tech Enthusiast
 
 ## ☕ Stay Connected
