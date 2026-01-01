@@ -92,7 +92,7 @@ data-warehouse-project/
 
 ## 😊 Acknowledgements & References
 
-This project was inspired by Baraa's YouTube channel.
+This project was inspired by [Baraa Khatib Salkini's](https://github.com/DataWithBaraa) YouTube channel.
 
 [![YouTube](https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](http://bit.ly/3GiCVUE)
 
